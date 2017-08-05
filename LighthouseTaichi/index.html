@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HW7 Final Project</title>
+<!--Remy Sharp Shim --> 
+<!--[if lt IE 9]> 
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+</script> 
+<![endif]-->
+
+<link href="css/styles.css" type="text/css" rel="stylesheet">
+<link href="css/blueberry.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+ 
+</head>
+
+<body>
+<div id="wrapper"><!--start of wrapper-->
+
+<header>
+	<img id="logo" src="images/logo-1.png"  alt="logo">
+	<h1>Lighthouse Tai Chi</h1>
+</header>
+
+<nav>
+<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="about.html">About</a></li>
+	<li><a href="locations.html">Locations</a></li>
+	<li><a href="membership.html">Membership</a></li>
+	<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+
+<div id="backg"><!--start Banner div-->
+<main> 
+
+<!-- blueberry -->
+
+    <div class="blueberry">
+      <ul class="slides">
+        <li><img src="images/group-1.jpg" alt="Tai chi" /></li> 
+        <li><img src="images/indoor.jpg" alt="Tai chi" /></li>
+		<li><img src="images/man.jpg" alt="Tai chi"/></li>
+		<li><img src="images/woman.jpg" alt="Tai chi"/></li>
+		<li><img src="images/girl.jpg" alt="Tai chi" /></li>
+		<li><img src="images/hai-9.jpg" alt="Tai chi"/></li>
+		<li><img src="images/one.jpg" alt="Tai chi"/></li>
+      </ul>
+    </div>
+</main>
+<!--end of blueberry -->
+<aside>
+	<div id="accordion">
+  <h3>TaiChi Everywhere</h3>
+  <div>
+    <p>
+   Tai Chi can be practiced both indoors and outdoors.
+    </p>
+  </div>
+  <h3>Thai Chi in Every Size</h3>
+  <div>
+    <p>
+    Tai Chi can be practiced both by individuals and in groups.
+    </p>
+  </div>
+  <h3>Tai Chi for Everyone</h3>
+  <div>
+    <p>
+   Tai Chi can be benificial for every age group, gender, and physical ability.
+    </p>
+</div>
+</div>
+</aside>
+
+</div><!--end of Banner div-->
+
+<div id="box1">
+	<h3>Check out Our Classes!</h2>
+	<a href="membership.html"><img src="images/boys-1.jpg" alt="membership"></a>
+</div><!--end box1-->
+
+<div id="box2">
+	<a href="about.html"><img src="images/what-1.jpg" alt="about"></a>
+</div><!--end box2-->
+
+<div id="box3">
+	<h3>Welcome to Visit Us</h2>
+	<a href="locations.html"><img src="images/location-1.jpg" alt="locations"></a>
+</div><!--end box3-->
+ 
+<footer>
+	<ul>
+		<li>copyright &copy; 2016</li>
+		<li>All Rights Reserved</li>
+		<li><a href="../index.html">Web design by Sue</a></li>
+	</ul>
+</footer> 
+
+</div><!--this is end of wrapper-->
+
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" /></a>
+<a href="https://validator.w3.org/nu/#textarea"><img style="border:0;width:88px;height:31px"
+        src="https://cdn4.iconfinder.com/data/icons/color-webshop/512/inline_code_online_shopping-512.png"
+        alt="Valid html!"/></a>
+
+
+
+<!-- javascript for blueberry -->
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="js/jquery.blueberry.js"></script>
+
+<script>
+$(window).load(function() {
+	$('.blueberry').blueberry();
+    $( "#accordion" ).accordion();
+	$("h1").animate({fontSize: "60px",
+					color: "#ff9900" }, 3000)
+	
+	
+});
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Final Project</title>
+<!--Remy Sharp Shim --> 
+<!--[if lt IE 9]> 
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+</script> 
+<![endif]-->
+
+<link href="css/styles.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<body>
+<div id="wrapper"><!--start of wrapper-->
+
+<header>
+	<img id="logo" src="images/logo-1.png"  alt="logo">
+	<h1>Lighthouse Tai Chi</h1>
+</header>
+
+<nav>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="locations.html">Locations</a></li>
+		<li><a href="membership.html">Membership</a></li>
+		<li><a href="contact.html">Contact</a></li>
+	</ul>
+</nav>
+
+<div id="member"><!--start Banner div-->
+
+<main id="membership"><!--the start of form-->
+<form action="formhandler.php" method="post">
+
+<fieldset>		
+<legend>Class Preferred</legend>
+	<fieldset class="left">
+	<label>Lighthouse TaiChi</label>
+	<select name="lighthouse">
+		<option>CHOOSE ONE</option>
+		<option value="M">M: 10:30-11:30am</option>
+		<option value="T">T: 4:00-5:00pm</option>
+		<option value="W">W: 10:30-11:30am</option>
+		<option value="Th">TH: 4:00-5:00pm</option>
+		<option value="F">F: 10:30-11:30am</option>
+		<option value="Sa">Sa: 4:00-5:00pm</option>
+	</select>
+	</fieldset>
+		
+	<fieldset class="right">
+		<label>SCC</label>
+		<select name="SCC">
+		<option>CHOOSE ONE</option>
+		<option value="monday">M: 11:00-11:50am</option>
+		</select>
+	</fieldset>
+	
+</fieldset>
+
+<fieldset>
+<legend>Interest</legend>
+	<label>What is your interest in this class?</label>
+	<p><input type="checkbox" name="excercise" value="excercise">excercise</p>
+	<p><input type="checkbox" name="relaxation" value="relaxation">relaxation</p>
+	<p><input type="checkbox" name="self-defense" value="self-defense">self-defense</p>
+	<p><input type="checkbox" name="recovery" value="recovery">recovery</p>
+	<p><input type="checkbox" name="spiritual well-being" value="spiritual well-being">spiritual well-being</p>
+</fieldset>
+
+<fieldset>
+<legend>Personal Info</legend>
+	<label>NAME</label>
+		<input type="text" name="name">
+	<label>EMAIL</label>
+		<input type="email" name="email">
+
+	<fieldset class="left">
+	<label>GENDER</label>
+		<p><input type="radio" name="gender" value="gals">Male</p>
+		<p><input type="radio" name="gender" value="gals">Female</p>
+	</fieldset>
+	
+	<fieldset class="right">
+	<label>PROFESSION</label>
+	<p><input type="radio" name="Profession" value="job">Student</p>
+	<p><input type="radio" name="work" value="job">Work-full-time</p>
+	<p><input type="radio" name="work" value="job">Work-part-time</p>
+	<p><input type="radio" name="retired" value="job">retired</p>
+	</fieldset>
+</fieldset>
+	 
+<fieldset>
+<legend>Comments</legend>
+	<textarea name="comments" rows="7"></textarea>
+	
+	<p><input id="submit" type="submit" value="REGISTER NOW!"></p>
+</fieldset>
+  
+</form> <!--end of form-->	
+</main>
+
+
+<aside id="membership-aside">
+<img class="taichi" src="images/child.jpg" alt="child">
+<h2>Lighthouse Taichi is for you</h2>
+	<p>Lighthouse Tai Chi school has the first class instructors, and we have two great locations both close to heighway. </p>
+	<p>We offer different programs to meet your interests as well as phisical needs.</p>  
+	<p>With the best training curriculum and locations, we are ready to work for you.</p>
+
+<img class="taichi" src="images/two.jpg" alt="adult">
+
+<h2>Welcome to our community!</h2>
+	<p>We are grateful for your trust.  All of us from Lighthouse Tai Chi school are welcome you!</p>
+	<p>Let us work together to build a safe living enviroment, and to reach our goal of staying healthy and happy.</p>
+<img class="taichi" src="images/o-y.jpg" alt="famly">
+</aside>
+
+</div><!--end of Banner div-->
+ 
+<footer>
+<ul>
+<li>copyright &copy; 2016</li>
+<li>All Rights Reserved</li>
+<li>Web design by Sue</li>
+</ul>
+</footer> 
+
+</div><!--this is end of wrapper-->
+
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" /></a>
+		
+<a href="https://validator.w3.org/nu/#textarea"><img style="border:0;width:88px;height:31px"
+        src="https://cdn4.iconfinder.com/data/icons/color-webshop/512/inline_code_online_shopping-512.png"
+        alt="Valid html!"/></a>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script>
+  $( function() {
+	  $("h1").animate({fontSize: "60px",
+					color: "#ff9900" }, 3000)
+	
+  } );
+  </script>		
+</body>
+</html>
