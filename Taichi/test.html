@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HW6 Template</title>
+<!--Remy Sharp Shim --> 
+<!--[if lt IE 9]> 
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+</script> 
+<![endif]-->
+
+<link href="css/styles.css" type="text/css" rel="stylesheet">
+<link href="css/blueberry.css" type="text/css" rel="stylesheet">
+
+ 
+</head>
+
+<body>
+<div id="wrapper"><!--start of wrapper-->
+
+<header>
+<img id="logo" src="images/logo-1.png"  alt="logo">
+<h1>Lighthouse Tai Chi</h1>
+</header>
+
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="locations.html">Locations</a></li>
+<li><a href="membership.html">Membership</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+<div id="contact">
+<main id="contact-main"> 
+<form action="formhandler.php" method="post">
+
+<fieldset>
+<legend>Your Information</legend>
+	<label>NAME</label>
+		<input type="text" name="name">
+	<label>EMAIL</label>
+		<input type="email" name="email">
+
+	<fieldset class="left">
+	<label>GENDER</label>
+		<p><input type="radio" name="gender" value="gals">Male</p>
+		<p><input type="radio" name="gender" value="gals">Female</p>
+	</fieldset>
+	
+	<fieldset class="right">
+	<label>AGE GROUP</label>
+		<p><input type="radio" name="age" value="age group">Children</p>
+		<p><input type="radio" name="age" value="age group">Adults</p>
+		<p><input type="radio" name="age" value="age group">Seniors</p>
+	</fieldset>
+</fieldset>	
+
+<fieldset id="ourinfo">
+<legend>Our Contact Information</legend>
+
+</fieldset>	
+</main>
+
+<aside id="contact-aside">
+
+
+<fieldset>
+<legend>What else Do You Want to Learn?</legend>
+		<p><input type="checkbox" name="Qigong" value="Qigong">Qigong</p>
+		<p><input type="checkbox" name="Maditation" value="Maditation">Maditation</p>
+		<p><input type="checkbox" name="Marcial Art" value="Marcial Art">Marcial Art</p>
+		<p><input type="checkbox" name="Others" value="Others">Others</p>
+</fieldset>	
+	
+<fieldset>
+<legend>Suggestions</legend>
+	<textarea name="comments" rows="8"></textarea>
+	
+<p><input id="submit" type="submit" value="Let Us Know!"></p>
+	
+</fieldset>
+</form>
+</aside>
+</div>
+<div id="box">
+<div id="box1">
+<h2>Check out Our Classes!</h2>
+<a href="membership.html"><img src="images/boys-1.jpg" alt="membership"></a>
+</div><!--end box1-->
+
+<div id="box2">
+<a href="about.html"><img src="images/what-1.jpg" alt="about"></a>
+</div><!--end box2-->
+
+<div id="box3">
+<h2>Welcome to Visit Us</h2>
+<a href="locations.html"><img src="images/location-1.jpg" alt="locations"></a>
+</div><!--end box3-->
+ </div> <!--end box-->
+<footer>
+<ul>
+<li>copywright &copy; 2016</li>
+<li>All Rights Reserved</li>
+<li><a href="../index.html">Web design by Sue</a></li>
+</ul>
+</footer> 
+
+</div><!--this is end of wrapper-->
+
+<p><a href="https://validator.w3.org/nu/#textarea">validator</a></p>
+
+<!-- javascript for blueberry -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script src="js/jquery.blueberry.js"></script>
+
+<script>
+$(window).load(function() {
+	$('.blueberry').blueberry();
+});
+</script>
+
+</body>
+</html>

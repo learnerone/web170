@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Final Project</title>
+<!--Remy Sharp Shim --> 
+<!--[if lt IE 9]> 
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+</script> 
+<![endif]-->
+
+<link href="css/styles.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+</head>
+
+<body>
+<div id="wrapper"><!--start of wrapper-->
+
+<header>
+	<img id="logo" src="images/logo-1.png"  alt="logo">
+	<h1>Lighthouse Tai Chi</h1>
+</header>
+
+<nav>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="locations.html">Locations</a></li>
+		<li><a href="membership.html">Membership</a></li>
+		<li><a href="contact.html">Contact</a></li>
+	</ul>
+</nav>
+
+<div id="about"><!--start Banner div-->
+
+<!--
+<main id="main-about">
+<h2 class="about">Something about Tai Chi</h2>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tai Chi, also called Tai Chi Chuan, is a noncompetitive, self-paced system of gentle physical exercise and stretching. </p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Often described as meditation in motion, Tai Chi promotes serenity through gentle, flowing movements. It involves a series of movements performed in a slow, focused manner and accompanied by deep breathing.</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tai Chi has many different styles. Each style may subtly emphasize various Tai Chi principles and methods. There are variations within each style. Some styles may focus on health maintenance, while others focus on the martial arts aspect of Tai Chi."</p>
+	<p class="quote"><strong>---By Mayo Clinic Stuff</strong></p>
+
+<h2 class="about">Great Benefits of Tai Chi</h2>
+	<p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tai Chi  helps reduce stress and anxiety. And it also helps increase flexibility and balance.</p>
+	<p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tai Chi  is low impact and puts minimal stress on muscles and joints, making it generally safe for all ages and fitness levels.</p>
+	<p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tai Chi  requires no special equipment. You can do Tai Chi anywhere, including indoors or outside. And you can do Tai Chi alone or in a group class.</p>
+    <p class="quote"><strong>---By Mayo Clinic Stuff</strong></p>
+-->
+	
+	
+	<div id="accordion">
+  <h3 class="about">Something about Tai Chi</h3>
+  <div>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tai Chi, also called Tai Chi Chuan, is a noncompetitive, self-paced system of gentle physical exercise and stretching. </p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Often described as meditation in motion, Tai Chi promotes serenity through gentle, flowing movements. It involves a series of movements performed in a slow, focused manner and accompanied by deep breathing.</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tai Chi has many different styles. Each style may subtly emphasize various Tai Chi principles and methods. There are variations within each style. Some styles may focus on health maintenance, while others focus on the martial arts aspect of Tai Chi."</p>
+	<p class="quote"><strong>---By Mayo Clinic Stuff</strong></p>
+
+  </div>
+  <h3 class="about">Great Benefits of Tai Chi</h3>
+  <div>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tai Chi, also called Tai Chi Chuan, is a noncompetitive, self-paced system of gentle physical exercise and stretching. </p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Often described as meditation in motion, Tai Chi promotes serenity through gentle, flowing movements. It involves a series of movements performed in a slow, focused manner and accompanied by deep breathing.</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tai Chi has many different styles. Each style may subtly emphasize various Tai Chi principles and methods. There are variations within each style. Some styles may focus on health maintenance, while others focus on the martial arts aspect of Tai Chi."</p>
+	<p class="quote"><strong>---By Mayo Clinic Stuff</strong></p>
+  </div>
+ 
+</div>
+	
+	
+	
+	
+	
+	
+	
+</main>	 
+
+<div id="of-video"><!--div inside Main-About-->
+<iframe id="video" src="https://www.youtube.com/embed/eaIPXs11xIM"></iframe>
+<!-- Here will offer an online-video of short TaiChi performence-->
+
+</div><!--End of Main-About div-->
+ 
+</div><!--end of Banner div-->
+
+ <footer>
+<ul>
+	<li>copyright &copy; 2016</li>
+	<li>All Rights Reserved</li>
+	<li>Web design by Sue</li>
+</ul>
+</footer> 
+
+</div><!--this is end of wrapper-->
+
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+
+<a href="https://validator.w3.org/nu/#textarea"><img style="border:0;width:88px;height:31px"
+        src="https://cdn4.iconfinder.com/data/icons/color-webshop/512/inline_code_online_shopping-512.png"
+        alt="Valid html!"/></a> 
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $(function() {
+    $( "#accordion" ).accordion();
+	  $("h1").animate({fontSize: "60px",
+					color: "#ff9900" }, 3000);
+		$("iframe").hide().delay(500).fadeIn(3000);
+  } );
+  </script>		
+</body>
+</html>
